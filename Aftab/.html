@@ -1,38 +1,102 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-Internal CSS
-<br>
-External CSS 
-</br>
-Inline CSS
-<title>css</title>
-<style>
-div{height:100px;200;text-align:centre;}
-h1{color:red;}
-
-p{
-    color:green; background-color:purple;text-align:center;border:100px solid red:}
-a{background-color:greenred; border:100px solid red;text-align:center;}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-p{
-<h1> In this website use only CSS practice </h1>
-<p> My image collection</p>
-<div class="a">home</p1>
-<div class="b">About<p1>
-<div class="c">E-mail</p1>
-<h1>Spoken classes</h1>
-<h1>Computer classes</h1>
-<h1>Academic classes</h1>
-}
+    <header>Hospital Management System</header>
+    <nav>
+        <a href="#doctor-login">Doctor Login</a>
+        <a href="#user-login">User Login</a>
+        <a href="#appointment">Appointment Reservation</a>
+        <a href="#patient-history">Patient History</a>
+        <a href="#doctor-profile">Doctor Profile</a>
+    </nav>
+    
+    <section id="doctor-login">
+        <h2>Doctor Login</h2>
+        <form>
+            <label>Email: <input type="email" required></label><br><br>
+            <label>Password: <input type="password" required></label><br><br>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <section id="user-login">
+        <h2>User/Patient Login</h2>
+        <form>
+            <label>Email: <input type="email" required></label><br><br>
+            <label>Password: <input type="password" required></label><br><br>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <section id="appointment">
+        <h2>Appointment Reservation</h2>
+        <form>
+            <label>Name: <input type="text" required></label><br><br>
+            <label>Age: <input type="number" required></label><br><br>
+            <label>Date: <input type="date" required></label><br><br>
+            <label>Doctor: <input type="text" required></label><br><br>
+            <button type="submit">Book Appointment</button>
+        </form>
+    </section>
+
+    <section id="patient-history">
+        <h2>Patient History</h2>
+        <p>Patient history records will be displayed here.</p>
+    </section>
+
+    <section id="doctor-profile">
+        <h2>Doctor Profile</h2>
+        <p>Details about doctors working in the hospital.</p>
+    </section>
+    
+    <footer>
+        &copy; 2025 Hospital Management System | All Rights Reserved
+    </footer>
 </body>
 </html>
-
-<html>
-<head>
-<title>css</title>
-<title>css</title>
-<h1 style="color:blue;">Wellcome to our class</h1>
-</head>
-<body>

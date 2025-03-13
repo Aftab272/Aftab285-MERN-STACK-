@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIKE Shoes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            width: 400px;
+            background: linear-gradient(to right, #F44336, #E91E63);
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            padding: 25px;
+            text-align: center;
+            color: white;
+        }
+
+        .card-image {
+            width: 150px;
+            height: 150px;
+            background-color: rgb(128, 128, 128);
+            border-radius: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            box-shadow: 0 0 10px white;
+        }
+
+        .image {
+            width: 100px;
+            height: auto;
+            transform: rotate(10deg);
+        }
+
+        .card-info {
+            margin-top: 20px;
+        }
+
+        .card-info h1 {
+            font-size: 22px;
+        }
+
+        .card-info p {
+            margin: 10px 0;
+            font-size: 15px;
+        }
+
+        .price {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .buttons {
+            margin-top: 17px;
+        }
+
+        .view-button, .buy-button {
+            width: 150px;
+            font-size: 14px;
+            outline: none;
+            border-radius: 4px;
+            border: none;
+            padding: 16px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        .view-button {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .view-button:hover {
+            background-color: #45a049;
+        }
+
+        .buy-button {
+            background-color: yellow;
+            color: black;
+        }
+
+        .buy-button:hover {
+            background-color: #3b69ff;
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="card-image">
+            <img src="file:///C:/Users/Akram/Downloads/Nike%20shoes.webp" class="image" alt="NIKE Shoes">
+        </div>
+        <div class="card-info">
+            <h1>NIKE Shoes O9Q</h1>
+            <p>Sold by Nike Shop</p>
+            <p class="price">Price: $200</p>
+            <p>It is an original Nike shoe called O9Q. It is made up of the strongest material.</p>
+            <div class="buttons">
+                <button class="view-button">View</button>
+                <button class="buy-button">Buy</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

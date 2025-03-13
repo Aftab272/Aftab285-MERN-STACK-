@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Hospital Management System</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#doctor-login">Doctor Login</a></li>
+            <li><a href="#user-login">User/Patient Login</a></li>
+            <li><a href="#appointment">Appointment Reservation</a></li>
+            <li><a href="#history">Patient History</a></li>
+            <li><a href="#profile">Doctor Profile</a></li>
+        </ul>
+    </nav>
+    
+    <section id="doctor-login">
+        <h2>Doctor Login</h2>
+        <form>
+            <label for="doc-username">Username:</label>
+            <input type="text" id="doc-username" name="doc-username" required>
+            <br>
+            <label for="doc-password">Password:</label>
+            <input type="password" id="doc-password" name="doc-password" required>
+            <br>
+            <input type="submit" value="Login">
+        </form>
+    </section>
+    
+    <section id="user-login">
+        <h2>User/Patient Login</h2>
+        <form>
+            <label for="user-username">Username:</label>
+            <input type="text" id="user-username" name="user-username" required>
+            <br>
+            <label for="user-password">Password:</label>
+            <input type="password" id="user-password" name="user-password" required>
+            <br>
+            <input type="submit" value="Login">
+        </form>
+    </section>
+    
+    <section id="appointment">
+        <h2>Appointment Reservation</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+            <br>
+            <label for="time">Select Time:</label>
+            <input type="time" id="time" name="time" required>
+            <br>
+            <input type="submit" value="Book Appointment">
+        </form>
+    </section>
+    
+    <section id="history">
+        <h2>Patient History</h2>
+        <table border="1">
+            <tr>
+                <th>Patient Name</th>
+                <th>Age</th>
+                <th>Diagnosis</th>
+                <th>Treatment</th>
+            </tr>
+            <tr>
+                <td>Zubair</td>
+                <td>45</td>
+                <td>Flu</td>
+                <td>Rest & Medicine</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section id="profile">
+        <h2>Doctor Profile</h2>
+        <img src="doctor.jpg" alt="Doctor Image" width="200">
+        <p><strong>Name:</strong> Rana AFTAB</p>
+        <p><strong>Specialization:</strong> Cardiologist</p>
+        <p><strong>Experience:</strong> 10 years</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Hospital Management System. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
