@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSL 11 Logo</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #0b0b0b;
+            margin: 0;
+        }
+
+        .logo {
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(135deg, #0f9200, #28c745);
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            box-shadow: 0 0 25px rgba(40, 199, 69, 0.8);
+            position: relative;
+            overflow: hidden;
+            border: 5px solid white;
+        }
+
+        .logo::before {
+            content: "";
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background: rgba(255, 255, 255, 0.2);
+            top: 10px;
+            left: 20px;
+            border-radius: 50%;
+            filter: blur(10px);
+        }
+
+        .logo h1 {
+            font-size: 48px;
+            margin: 0;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 0 0 12px rgba(255, 255, 255, 0.9);
+            z-index: 2;
+        }
+
+        .teams {
+            font-size: 12px;
+            font-weight: 600;
+            margin-top: 10px;
+            padding: 8px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 10px;
+            text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <h1>PSL 11</h1>
+        <div class="teams">
+            Karachi Kings | Lahore Qalandars <br>
+            Islamabad United | Peshawar Zalmi <br>
+            Quetta Gladiators | Multan Sultans
+        </div>
+    </div>
+</body>
+</html>
